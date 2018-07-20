@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1021119702249",
+    "firebase_url": "https://the-laundry-basket-9e2c2.firebaseio.com",
+    "project_id": "the-laundry-basket-9e2c2",
+    "storage_bucket": "the-laundry-basket-9e2c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021119702249:android:6f9726b5c3deb48e",
+        "android_client_info": {
+          "package_name": "com.example.android.thelaundrybasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021119702249-u7ikutm4quvar6m0b195iofscsusn9af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.thelaundrybasket",
+            "certificate_hash": "48a713232b24c888b1cacf31b0b1f59a085b5ced"
+          }
+        },
+        {
+          "client_id": "1021119702249-mdh74q7iqmhvjtvjg45oee2k9qv29d57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhTlNLZgIWwTNqT6-HKtcNAB-rwa5GrIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021119702249-mdh74q7iqmhvjtvjg45oee2k9qv29d57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

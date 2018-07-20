@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SignupActivity">
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        android:ems="10"
+        android:hint="Referral Code (Optional)"
+        android:inputType="textPersonName"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:background="@drawable/mybutton_bg"
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:onClick="signUpUser"
+        android:text="Sign Up"
+        android:textColor="#FF8C00"/>
+</RelativeLayout>
