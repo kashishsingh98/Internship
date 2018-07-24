@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+        setContentView( R.layout.activity_main );
 
         button = findViewById( R.id.button );
         button2 = findViewById( R.id.button2 );
@@ -83,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
-        setContentView( activity_main );
+        
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
