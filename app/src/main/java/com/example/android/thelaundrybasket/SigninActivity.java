@@ -49,7 +49,7 @@ public class SigninActivity extends AppCompatActivity{
                     {
                         dialog.hide();
                         Toast.makeText( getApplicationContext(),"User successfully signed in.",Toast.LENGTH_SHORT ).show();
-                        Intent intent= new Intent( SigninActivity.this ,MainPageActivity.class );
+                        Intent intent= new Intent( SigninActivity.this ,MainActivity2.class );
                         startActivity( intent );
                         finish();
                     }

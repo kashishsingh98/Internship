@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.thelaundrybasket">
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,10 +20,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupActivity" />
-        <activity
-            android:name=".MainPageActivity"
-            android:label="@string/title_activity_main_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".NewOrder1Activity" />
+        <activity android:name=".MyOrdersActivity" />
+        <activity android:name=".ThankYouActivity" />
+        <activity android:name=".OrderSummaryActivity" />
+        <activity android:name=".OrderStatusActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Address"/>
     </application>
 
 </manifest>

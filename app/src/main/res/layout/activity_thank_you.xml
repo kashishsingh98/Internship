@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThankYouActivity"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Hello username !"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Thank you for using our service. Your order has been successfully placed"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="ORDER ID - "
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center_horizontal"
+            android:text="2018-2907-3811"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_thumps_up"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Orders"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/all_orders"
+        android:layout_margin="8dp"/>
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel my order"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cancel_my_order"
+        android:layout_margin="8dp"/>-->
+
+
+
+</LinearLayout>

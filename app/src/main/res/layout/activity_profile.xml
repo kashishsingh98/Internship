@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="texopandalaundryapp.example.com.texopandalaundryapp.ProfileActivity">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@color/profileView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/phone_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <EditText
+                android:id="@+id/phone_text"
+                android:cursorVisible="false"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/phone_image_view"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="number"
+                android:paddingRight="8dp"
+                android:text="8787999890"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/phone_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/phone_text"
+                android:text="Edit"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/profileView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/email_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <EditText
+                android:id="@+id/email_text"
+                android:cursorVisible="false"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/email_image_view"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="textEmailAddress"
+                android:paddingRight="8dp"
+                android:text="abcde@gmail.com"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/email_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/email_text"
+                android:text="Edit"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/profileView" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/password_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingRight="12dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/password_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/password_image_view"
+                android:text="Change Password"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@color/profileView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/wallet_image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/wallet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/wallet_image_view"
+                android:fontFamily="monospace"
+                android:text="My Wallet"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:paddingRight="24dp"
+                android:text="₹ 0.0"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/profileView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Customer Support"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/customer_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/refer_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Refer a Friend"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/refer_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Terms and Conditions"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/terms_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Privacy Policy"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Referral Terms and Conditions"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/referral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="FAQs"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/faqs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="8dp"
+                android:src="@drawable/arrow" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

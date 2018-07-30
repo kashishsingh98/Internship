@@ -54,7 +54,7 @@ public class SignupActivity extends AppCompatActivity {
                     {
                         dialog.hide();
                         Toast.makeText( getApplicationContext(),"User successfully signed up.",Toast.LENGTH_SHORT ).show();
-                        Intent intent= new Intent( SignupActivity.this ,MainPageActivity.class );
+                        Intent intent= new Intent( SignupActivity.this ,MainActivity2.class );
                         startActivity( intent );
                         finish();
                     }

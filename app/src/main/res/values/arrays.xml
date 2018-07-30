@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_slots_options">
+        <item>"10-12"</item>
+        <item>"1-3"</item>
+        <item>"5-7"</item>
+    </string-array>
+
+    <string-array name="quantity_options">
+        <item>"1-20"</item>
+        <item>"20-40"</item>
+        <item>"40+"</item>
+    </string-array>
+</resources>

@@ -60,13 +60,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+        setContentView( R.layout.activity_main );
 
         button = findViewById( R.id.button );
         button2 = findViewById( R.id.button2 );
         mAuth=FirebaseAuth.getInstance();
         gButton = (SignInButton) findViewById( R.id.google_button );
 
-      gButton.setOnClickListener( new View.OnClickListener() {
+        gButton.setOnClickListener( new View.OnClickListener() {
           @Override
           public void onClick(View v) {
                   signIn();
@@ -79,11 +80,11 @@ public class MainActivity extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser()!=null)
                 {
-                    startActivity( new Intent( MainActivity.this, MainPageActivity.class ) );
+                    startActivity( new Intent( MainActivity.this, MainActivity2.class ) );
                 }
             }
         };
-        setContentView( activity_main );
+
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
@@ -161,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    
+
     public void signin (View v)
     {
         startActivity(new Intent( MainActivity.this,SigninActivity.class ));
